@@ -1,0 +1,18 @@
+.text {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.text:hover {
+  border-bottom: 5px solid #ffffff;
+}
+.text::after {
+  content: "";
+  position: relative;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom: 0;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+}
